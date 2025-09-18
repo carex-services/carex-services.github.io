@@ -4,29 +4,50 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+  <!-- Homepage -->
+  <url>
+    <loc>https://carex.services/</loc>
+    <lastmod>2025-09-18</lastmod>
+    <priority>1.0</priority>
+  </url>
 
-<url>
-  <loc>https://carex.services/</loc>
-  <lastmod>2025-09-18T05:58:21+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://carex.services/index.html</loc>
-  <lastmod>2025-09-18T05:58:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://carex.services/brochure.html</loc>
-  <lastmod>2025-09-18T05:58:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://carex.services/assets/files/careX-brochure.pdf</loc>
-  <lastmod>2025-09-18T05:58:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+  <!-- Main Pages -->
+  <url>
+    <loc>https://carex.services/brochure.html</loc>
+    <lastmod>2025-09-18</lastmod>
+    <priority>0.8</priority>
+  </url>
 
+  <url>
+    <loc>https://carex.services/services.html</loc>
+    <lastmod>2025-09-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://carex.services/contact.html</loc>
+    <lastmod>2025-09-18</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://carex.services/faq.html</loc>
+    <lastmod>2025-09-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://carex.services/testimonials.html</loc>
+    <lastmod>2025-09-18</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- PDF -->
+  <url>
+    <loc>https://carex.services/assets/files/careX-brochure.pdf</loc>
+    <lastmod>2025-09-18</lastmod>
+    <priority>0.5</priority>
+  </url>
 
 </urlset>
