@@ -1143,22 +1143,22 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Features Section
+# why-choose-us Section
 --------------------------------------------------------------*/
-.features .nav-tabs {
+.why-choose-us .nav-tabs {
   border: 0;
 }
 
-.features .nav-item {
+.why-choose-us .nav-item {
   width: 100%;
   margin-bottom: 15px;
 }
 
-.features .nav-item:last-child {
+.why-choose-us .nav-item:last-child {
   margin-bottom: 0;
 }
 
-.features .nav-link {
+.why-choose-us .nav-link {
   color: var(--heading-color);
   border: 0;
   padding: 30px;
@@ -1168,7 +1168,7 @@ section,
   cursor: pointer;
 }
 
-.features .nav-link i {
+.why-choose-us .nav-link i {
   background-color: var(--surface-color);
   color: var(--accent-color);
   display: flex;
@@ -1183,28 +1183,28 @@ section,
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.features .nav-link h4 {
+.why-choose-us .nav-link h4 {
   font-size: 20px;
   font-weight: 600;
   margin: 0 0 10px 0;
   transition: 0.3s;
 }
 
-.features .nav-link p {
+.why-choose-us .nav-link p {
   font-size: 15px;
   margin: 0;
 }
 
-.features .nav-link:hover {
+.why-choose-us .nav-link:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 96%);
 }
 
-.features .nav-link.active {
+.why-choose-us .nav-link.active {
   background: color-mix(in srgb, var(--accent-color), transparent 96%);
   color: var(--default-color);
 }
 
-.features .tab-pane img {
+.why-choose-us .tab-pane img {
   border-radius: 15px;
 }
 

@@ -41,17 +41,25 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
-    <a href="index.html" class="d-flex align-items-center">
+    <a href="index.html" class="d-flex align-items-center" title="CAREx Nursing Agency – Skilled Nursing & 245D Services in the Twin Cities">
       <!-- Logo -->
-      <img src="assets/img/careXlogo.png" alt="CareX Nursing Agency" style="height:50px; width:auto;" class="me-3">
+      <img 
+          src="assets/img/careXlogo.png" 
+          alt="CAREx Nursing Agency – Skilled Nursing Services" 
+          style="height:50px; width:auto;" 
+          class="me-3">
 
       <!-- Vertical Divider -->
       <div style="width:1px; background-color:#ccc; height:50px; margin-right:1rem;"></div>
 
       <!-- Text container -->
       <div>
-        <h5 class="mb-0"><strong> Nursing Agency & 245D</strong></h5>
-        <h5 class="mb-0 text-muted" style="font-weight: normal; font-size: 0.9rem;">Twin Cities & Nearby Communities</h5>
+        <h1 class="mb-0" style="font-size:1.25rem;">
+          <strong>Nursing Agency – Nursing & 245D Services</strong>
+        </h1>
+        <p class="mb-0 text-muted" style="font-weight: normal; font-size: 0.9rem;">
+          Serving Twin Cities & Nearby Communities
+        </p>
       </div>
     </a>
 
@@ -61,8 +69,8 @@
         <ul>
           <li><a href="index.html#hero" class="active">Home</a></li>
           <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#features">Features</a></li>
           <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#features">Features</a></li>
           <li><a href="brochure.html">Brochure</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
@@ -184,28 +192,34 @@
 
   </main>
 
+  <!-- Footer Section -->
   <footer id="footer" class="footer position-relative light-background">
 
     <div class="container footer-top">
       <div class="row gy-4">
+
+        <!-- About & Contact -->
         <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/careXlogo.png" alt="CareX Nursing Agency" style="height:50px; width:auto;" class="me-3">
+          <a href="index.html" class="logo d-flex align-items-center mb-3">
+            <img src="assets/img/careXlogo.png" alt="CAREx Nursing Agency – Skilled Nursing Services" style="height:50px; width:auto;" class="me-3">
           </a>
-          <div class="footer-contact pt-6">
+          <div class="footer-contact pt-3">
             <p>6765 Buckingham Road</p>
             <p>Woodbury, MN 55125</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 507-573-2516</span></p>
-            <p><strong>Email:</strong> <span>carexna@outlook.com</span></p>
+            <p class="mt-2"><strong>Phone:</strong> <a href="tel:+15075732516">+1 507-573-2516</a></p>
+            <p><strong>Email:</strong> <a href="mailto:carexna@outlook.com">carexna@outlook.com</a></p>
           </div>
-          <!-- <div class="social-links d-flex mt-4">
-            <a href=""><i class="bi bi-twitter-x"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
-          </div> -->
+          <!-- Optional social links
+          <div class="social-links d-flex mt-4">
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+          </div>
+          -->
         </div>
 
+        <!-- Useful Links -->
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
@@ -217,6 +231,7 @@
           </ul>
         </div>
 
+        <!-- Office Hours -->
         <div class="col-lg-3 col-md-6 footer-hours">
           <h4>Office Hours</h4>
           <ul>
@@ -225,46 +240,39 @@
             <li><strong>Wednesday:</strong> 9:00 AM – 5:00 PM</li>
             <li><strong>Thursday:</strong> 9:00 AM – 5:00 PM</li>
             <li><strong>Friday:</strong> 9:00 AM – 5:00 PM</li>
-            <li><strong>Saturday: Closed</strong></li>
-            <li><strong>Sunday: Closed</strong></li>
+            <li><strong>Saturday:</strong> Closed</li>
+            <li><strong>Sunday:</strong> Closed</li>
           </ul>
         </div>
 
-        <!-- <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div> -->
-
-        <!-- <div class="col-lg-4 col-md-12 footer-newsletter">
+        <!-- Optional Newsletter / Services Section -->
+        <!--
+        <div class="col-lg-4 col-md-12 footer-newsletter">
           <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <p>Subscribe to our newsletter for latest news and updates.</p>
           <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="newsletter-form">
+              <input type="email" name="email" placeholder="Your Email">
+              <input type="submit" value="Subscribe">
+            </div>
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your subscription request has been sent. Thank you!</div>
           </form>
-        </div> -->
+        </div>
+        -->
 
       </div>
     </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">CAREx Nursing Agency LLC</strong><span id="year"></span> <span>All Rights Reserved</span></p>
+    <!-- Copyright -->
+    <div class="container text-center mt-4">
+      <p>© <span id="year"></span> <strong class="px-1 sitename">CAREx Nursing Agency LLC</strong> All Rights Reserved</p>
     </div>
 
     <script>
-      const yearSpan = document.getElementById("year");
-      const currentYear = new Date().getFullYear();
-      yearSpan.textContent = currentYear;
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
-
 
   </footer>
 
